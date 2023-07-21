@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - The Grill Thrill</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to The The Grill Thrill</h1>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Our Menu </a></li>
+            <li><a href="hours.html">Opening Hours</a></li>
+        </ul>
+      </nav>
+      <!-- replace with css.sheet -->
+      <figure>
+        <img src="contacthamburger.jpeg" alt="The Grill Thrill" title="The Best Restaurant" width="400" height="400"/>
+        <figcaption>The Grill Thrill</figcaption>
+      </figure>
+    </header>
+  
+    <main>
+      <!-- our content -->
+      <section>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="your name required"/>
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input type="email" name="name" id="email" placeholder="your email required"/>
+            </p>
+            <p>
+                <label for="number">Phone Number:</label>
+                <input type="number" name="name" id="number" placeholder="your phone number required"/>
+            </p>
+            <p>
+              <label for="message">Your Message</label>
+              <br />
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Your Message here"></textarea>
+            </p>
+        </fieldset>
+          <button type="submit">Send</button>
+          <button type="reset">reset</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our Location</h2>
+        <address>
+           Lagoon View Estate, Makoko Road, Yaba.
+          <br /><br />
+          phone: <a href="+2347039738542">+2347039738542</a>
+        </address>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      <p>Copyright &copy; The Grill Thrill</p>
+    </footer>
+  </body>
+</html>
